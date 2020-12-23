@@ -1,0 +1,23 @@
+.infoContainer {
+  background-color: white;
+  padding: 0.85rem;
+  margin: 2rem;
+  border-radius: 5px;
+  width: 250px;
+  -webkit-box-shadow: 0px 9px 23px -7px #e0e0e0;
+  box-shadow: 0px 9px 23px -7px #e8e8e8;
+}
+
+.sectionContainer {
+  margin-bottom: 2rem;
+}
+
+.mainContainer {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.mainContainer img {
+  border-radius: 100%;
+  width: 120px;
+}
