@@ -1,23 +1,77 @@
 .infoContainer {
   background-color: white;
-  padding: 0.85rem;
+  padding: 2.5rem 1.5rem;
   margin: 2rem;
   border-radius: 5px;
-  width: 250px;
+  width: 280px;
   -webkit-box-shadow: 0px 9px 23px -7px #e0e0e0;
   box-shadow: 0px 9px 23px -7px #e8e8e8;
 }
 
-.sectionContainer {
-  margin-bottom: 2rem;
+.infoContainer h2{
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+  font-weight: 400;
 }
 
 .mainContainer {
-  margin-bottom: 2rem;
+  margin-bottom: 2.25rem;
   text-align: center;
 }
 
 .mainContainer img {
   border-radius: 100%;
-  width: 120px;
+  width: 100px;
+  margin-bottom: .75rem;
+}
+
+.sectionContainer:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+
+.sectionContainer > h3{
+  margin-bottom: .50rem;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.sectionContainer > h3 > span {
+  flex-shrink: 0;
+}
+
+.sectionContainer > h3::after{
+  content:"";
+  width: 100%;
+  margin-left: 1rem;
+  margin-top: 4px;
+  height: 1px;
+  background-color: rgba(219, 216, 216, 0.603);
+}
+
+.schoolInfo{
+  margin-bottom: 1rem;
+}
+
+.schoolInfo h4{
+  font-size: .85rem;
+  color: #b1b0b0;
+  margin-bottom: .25rem;
+
+}
+
+.personalList{
+  margin: .75rem auto;
+  display: flex;
+}
+
+.rightInfo{
+  width: 4rem;
+  margin-left: auto;
+}
+
+.bioInfo{
+  font-size: .95rem;
+  line-height: 1.75rem;
 }
