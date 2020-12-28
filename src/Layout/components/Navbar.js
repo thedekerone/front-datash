@@ -1,12 +1,12 @@
 import React from "react";
-import { header, nav_list } from "./Navbar.module.css";
+import { Header, NavList } from "./Navbar.css";
 
 export const Navbar = () => {
   return (
-    <header className={header}>
+    <Header >
       <h1>Datash</h1>
       <nav>
-        <ul className={nav_list}>
+        <NavList >
           <li>
             <a href="#">Leaderboard</a>
           </li>
@@ -16,8 +16,8 @@ export const Navbar = () => {
           <li>
             <a href="#">Blog</a>
           </li>
-        </ul>
+        </NavList>
       </nav>
-    </header>
+    </Header>
   );
 };
